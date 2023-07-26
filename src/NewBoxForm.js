@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const newBoxForm = ({ addBox }) => {
+const NewBoxForm = ({ addBox }) => {
     const initialState = {
         color: "",
         width: "",
@@ -59,4 +59,4 @@ const newBoxForm = ({ addBox }) => {
     )
 }
 
-export default newBoxForm;
+export default NewBoxForm;
